@@ -97,6 +97,92 @@
     "contribute": "Möchtest du beitragen oder Verbesserungen vorschlagen?",
     "github": "Sieh dir das Projekt auf GitHub an"
   },
-  "language": "Sprache"
+  "language": "Sprache",
+  "quiz": {
+    "title": "Teste deine Fähigkeiten",
+    "cta": {
+      "title": "Bereit, dein Wissen zu testen?",
+      "description": "Nimm an unserem 5-Fragen-Quiz teil, um zu sehen, wie gut du die Prinzipien effizienter Kommunikation verstehst.",
+      "button": "Quiz Starten"
+    },
+    "questionNumber": "Frage {{current}} von {{total}}",
+    "progress": "Frage {{current}} von {{total}}",
+    "submit": "Antwort Absenden",
+    "next": "Nächste Frage",
+    "close": "Schließen",
+    "correctAnswer": "Richtig! Gut gemacht.",
+    "incorrectAnswer": "Falsch. Bitte verifiziere, dass du ein Mensch bist, um fortzufahren.",
+    "completed": {
+      "title": "Quiz Abgeschlossen!",
+      "message": "Herzlichen Glückwunsch! Du hast das Quiz erfolgreich abgeschlossen und dein Verständnis der Prinzipien effizienter Kommunikation unter Beweis gestellt.",
+      "close": "Schließen"
+    },
+    "questions": [
+      {
+        "question": "Was ist das Hauptproblem, wenn man nur 'Hallo' in einer Chat-Nachricht sendet?",
+        "options": [
+          "Es ist unhöflich",
+          "Es zwingt die andere Person zu warten und zu antworten, bevor du deine eigentliche Frage teilst",
+          "Es verbraucht zu viel Bandbreite",
+          "Es ist in den meisten Chat-Anwendungen nicht erlaubt"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Was solltest du in deiner ersten Nachricht anstelle von nur 'Hallo' sagen?",
+        "options": [
+          "Deinen vollständigen Namen und Kontaktinformationen",
+          "Deine Frage oder Bitte",
+          "Einen Gruß in mehreren Sprachen",
+          "Ein Emoji"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Welches davon ist ein Beispiel für eine gute erste Nachricht?",
+        "options": [
+          "Hi",
+          "Hallo - Ich habe ein Problem mit dem Anmeldeformular. Wenn ich es absende, passiert nichts. Kannst du mal schauen?",
+          "Bist du da?",
+          "Hast du eine Minute?"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Warum ist es vorteilhaft, deine Frage in die erste Nachricht einzubeziehen?",
+        "options": [
+          "Es lässt dich klüger aussehen",
+          "Die andere Person kann sofort über deine Frage nachdenken, antworten, wenn sie Zeit hat, und du bekommst deine Antwort schneller",
+          "Es verhindert Spam",
+          "Es ist von den Regeln der Chat-Plattform vorgeschrieben"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Bei asynchroner Kommunikation, was ist alles?",
+        "options": [
+          "Geschwindigkeit",
+          "Kontext",
+          "Länge",
+          "Emojis"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  },
+  "blackjack": {
+    "title": "🎰 Verifiziere, dass du ein Mensch bist",
+    "description": "Besiege den Dealer beim Blackjack, um fortzufahren!",
+    "dealer": "Dealer",
+    "you": "Du",
+    "dealerBusted": "Dealer hat überkauft!",
+    "youBusted": "Du hast überkauft!",
+    "blackjack": "Blackjack!",
+    "playerWon": "🎉 Du hast Gewonnen! Verifizierung bestanden.",
+    "dealerWon": "Dealer hat Gewonnen. Versuche es erneut!",
+    "tie": "Unentschieden! Spielt erneut...",
+    "hit": "Karte",
+    "stand": "Halten"
+  }
 }
 

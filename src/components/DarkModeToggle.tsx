@@ -51,7 +51,7 @@ export const DarkModeToggle = memo(function DarkModeToggle({ mobile = false }: D
     return (
       <button
         onClick={toggleTheme}
-        className="w-10 h-10 rounded-full shadow-md hover:shadow-lg transition-all duration-300 active:scale-95 flex items-center justify-center text-lg"
+        className="w-10 h-10 rounded-full shadow-md hover:shadow-lg transition-all duration-300 active:scale-95 flex items-center justify-center text-lg cursor-pointer"
         style={{ background: 'linear-gradient(to bottom right, var(--color-bg-secondary), var(--color-bg-tertiary))', borderColor: 'var(--color-border)', borderWidth: '1px', borderStyle: 'solid' }}
         aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
         type="button"
@@ -66,7 +66,7 @@ export const DarkModeToggle = memo(function DarkModeToggle({ mobile = false }: D
   return (
     <button
       onClick={toggleTheme}
-      className="fixed top-4 left-4 z-50 w-12 h-12 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 flex items-center justify-center text-xl backdrop-blur-sm"
+      className="fixed top-4 left-4 z-50 w-12 h-12 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 flex items-center justify-center text-xl backdrop-blur-sm cursor-pointer"
       style={{ background: 'linear-gradient(to bottom right, var(--color-bg-secondary), var(--color-bg-tertiary))', borderColor: 'var(--color-border)', borderWidth: '1px', borderStyle: 'solid' }}
       aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
       type="button"

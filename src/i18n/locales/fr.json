@@ -97,6 +97,92 @@
     "contribute": "Vous voulez contribuer ou suggérer des améliorations ?",
     "github": "Consultez le projet sur GitHub"
   },
-  "language": "Langue"
+  "language": "Langue",
+  "quiz": {
+    "title": "Testez vos Compétences",
+    "cta": {
+      "title": "Prêt à tester vos connaissances ?",
+      "description": "Répondez à notre quiz de 5 questions pour voir dans quelle mesure vous comprenez les principes de communication efficace.",
+      "button": "Commencer le Quiz"
+    },
+    "questionNumber": "Question {{current}} sur {{total}}",
+    "progress": "Question {{current}} sur {{total}}",
+    "submit": "Soumettre la Réponse",
+    "next": "Question Suivante",
+    "close": "Fermer",
+    "correctAnswer": "Correct ! Bien joué.",
+    "incorrectAnswer": "Incorrect. Veuillez vérifier que vous êtes humain pour continuer.",
+    "completed": {
+      "title": "Quiz Terminé !",
+      "message": "Félicitations ! Vous avez terminé le quiz avec succès et démontré votre compréhension des principes de communication efficace.",
+      "close": "Fermer"
+    },
+    "questions": [
+      {
+        "question": "Quel est le principal problème d'envoyer simplement 'Bonjour' dans un message de chat ?",
+        "options": [
+          "C'est impoli",
+          "Cela force l'autre personne à attendre et à répondre avant que vous ne partagiez votre vraie question",
+          "Cela utilise trop de bande passante",
+          "Ce n'est pas autorisé dans la plupart des applications de chat"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Que devez-vous inclure dans votre premier message au lieu de simplement dire 'Bonjour' ?",
+        "options": [
+          "Votre nom complet et vos coordonnées",
+          "Votre question ou demande",
+          "Une salutation en plusieurs langues",
+          "Un emoji"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Lequel de ceux-ci est un exemple de bon premier message ?",
+        "options": [
+          "Salut",
+          "Salut - J'ai un problème avec le formulaire de connexion. Quand je le soumets, rien ne se passe. Tu peux regarder ?",
+          "Tu es là ?",
+          "Tu as une minute ?"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pourquoi est-il bénéfique d'inclure votre question dans le premier message ?",
+        "options": [
+          "Cela vous fait paraître plus intelligent",
+          "L'autre personne peut commencer à réfléchir à votre question immédiatement, répondre quand elle a le temps, et vous obtenez votre réponse plus rapidement",
+          "Cela empêche le spam",
+          "C'est requis par les règles de la plateforme de chat"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Dans la communication asynchrone, qu'est-ce qui est tout ?",
+        "options": [
+          "Vitesse",
+          "Contexte",
+          "Longueur",
+          "Emojis"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  },
+  "blackjack": {
+    "title": "🎰 Vérifiez que Vous Êtes Humain",
+    "description": "Battez le croupier au Blackjack pour continuer !",
+    "dealer": "Croupier",
+    "you": "Vous",
+    "dealerBusted": "Le Croupier a Dépassé !",
+    "youBusted": "Vous Avez Dépassé !",
+    "blackjack": "Blackjack !",
+    "playerWon": "🎉 Vous Avez Gagné ! Vérification réussie.",
+    "dealerWon": "Le Croupier a Gagné. Réessayez !",
+    "tie": "Match nul ! Nouvelle partie...",
+    "hit": "Tirer",
+    "stand": "Rester"
+  }
 }
 

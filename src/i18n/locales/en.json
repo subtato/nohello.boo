@@ -97,6 +97,92 @@
     "contribute": "Want to contribute or suggest improvements?",
     "github": "Check out the project on GitHub"
   },
-  "language": "Language"
+  "language": "Language",
+  "quiz": {
+    "title": "Test Your Skills",
+    "cta": {
+      "title": "Ready to test your knowledge?",
+      "description": "Take our 5-question quiz to see how well you understand the principles of efficient communication.",
+      "button": "Start Quiz"
+    },
+    "questionNumber": "Question {{current}} of {{total}}",
+    "progress": "Question {{current}} of {{total}}",
+    "submit": "Submit Answer",
+    "next": "Next Question",
+    "close": "Close",
+    "correctAnswer": "Correct! Well done.",
+    "incorrectAnswer": "Incorrect. Please verify you're human to continue.",
+    "completed": {
+      "title": "Quiz Completed!",
+      "message": "Congratulations! You've successfully completed the quiz and demonstrated your understanding of efficient communication principles.",
+      "close": "Close"
+    },
+    "questions": [
+      {
+        "question": "What is the main problem with sending just 'Hello' in a chat message?",
+        "options": [
+          "It's impolite",
+          "It forces the other person to wait and respond before you share your actual question",
+          "It uses too much bandwidth",
+          "It's not allowed in most chat applications"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What should you include in your first message instead of just saying 'Hello'?",
+        "options": [
+          "Your full name and contact information",
+          "Your question or request",
+          "A greeting in multiple languages",
+          "An emoji"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of these is an example of a good first message?",
+        "options": [
+          "Hi",
+          "Hello - I'm having trouble with the login form. When I submit it, nothing happens. Can you take a look?",
+          "Are you there?",
+          "Got a minute?"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Why is including your question in the first message beneficial?",
+        "options": [
+          "It makes you look smarter",
+          "The other person can start thinking about your question immediately, respond when they have time, and you get your answer faster",
+          "It prevents spam",
+          "It's required by chat platform rules"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "In asynchronous communication, what is everything?",
+        "options": [
+          "Speed",
+          "Context",
+          "Length",
+          "Emojis"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  },
+  "blackjack": {
+    "title": "🎰 Verify You're Human",
+    "description": "Beat the dealer in Blackjack to continue!",
+    "dealer": "Dealer",
+    "you": "You",
+    "dealerBusted": "Dealer Busted!",
+    "youBusted": "You Busted!",
+    "blackjack": "Blackjack!",
+    "playerWon": "🎉 You Won! Verification passed.",
+    "dealerWon": "Dealer Won. Try again!",
+    "tie": "It's a tie! Playing again...",
+    "hit": "Hit",
+    "stand": "Stand"
+  }
 }
 

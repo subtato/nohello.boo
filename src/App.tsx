@@ -3,10 +3,12 @@ import i18n from './i18n/config';
 import { ControlsBar } from './components/ControlsBar';
 import { ChatExample } from './components/ChatExample';
 import { RotatingText } from './components/RotatingText';
+import { Quiz } from './components/Quiz';
 
 function App() {
   // Only subscribe to language changes, not all i18n updates
   const [currentLanguage, setCurrentLanguage] = useState(i18n.language);
+  const [showQuiz, setShowQuiz] = useState(false);
   
   useEffect(() => {
     const handleLanguageChange = (lng: string) => {
@@ -37,6 +39,9 @@ function App() {
     badExamples: i18n.t('examples.bad', { returnObjects: true }) as string[],
     goodExamples: i18n.t('examples.good', { returnObjects: true }) as string[],
     benefits: i18n.t('solution.benefits', { returnObjects: true }) as string[],
+    quizCtaTitle: i18n.t('quiz.cta.title'),
+    quizCtaDescription: i18n.t('quiz.cta.description'),
+    quizCtaButton: i18n.t('quiz.cta.button'),
   }), [currentLanguage]); // Re-compute only when language changes
 
   return (
@@ -145,7 +150,28 @@ function App() {
           </div>
         </section>
 
-        <footer className="mt-20 pt-10 border-t-2 border-gray-200 dark:border-gray-800 text-center animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+        {/* Quiz CTA Section */}
+        <section className="mb-16 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+          <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-2xl p-8 md:p-12 border-2 border-blue-200 dark:border-blue-800 shadow-xl">
+            <div className="text-center">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-gray-100 flex items-center justify-center gap-3">
+                <span className="text-4xl">🎯</span>
+                {translations.quizCtaTitle}
+              </h2>
+              <p className="text-lg md:text-xl mb-8 text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
+                {translations.quizCtaDescription}
+              </p>
+              <button
+                onClick={() => setShowQuiz(true)}
+                className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105 transform cursor-pointer"
+              >
+                {translations.quizCtaButton}
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <footer className="mt-20 pt-10 border-t-2 border-gray-200 dark:border-gray-800 text-center animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
           <p className="text-xl mb-6 text-gray-700 dark:text-gray-300 font-medium max-w-2xl mx-auto leading-relaxed">
             {translations.footerText}
           </p>
@@ -162,6 +188,9 @@ function App() {
           </p>
         </footer>
       </main>
+
+      {/* Quiz Modal */}
+      {showQuiz && <Quiz onClose={() => setShowQuiz(false)} />}
     </div>
   );
 }

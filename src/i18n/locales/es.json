@@ -97,6 +97,92 @@
     "contribute": "¿Quieres contribuir o sugerir mejoras?",
     "github": "Consulta el proyecto en GitHub"
   },
-  "language": "Idioma"
+  "language": "Idioma",
+  "quiz": {
+    "title": "Pon a Prueba tus Habilidades",
+    "cta": {
+      "title": "¿Listo para poner a prueba tus conocimientos?",
+      "description": "Realiza nuestro cuestionario de 5 preguntas para ver qué tan bien entiendes los principios de comunicación eficiente.",
+      "button": "Comenzar Cuestionario"
+    },
+    "questionNumber": "Pregunta {{current}} de {{total}}",
+    "progress": "Pregunta {{current}} de {{total}}",
+    "submit": "Enviar Respuesta",
+    "next": "Siguiente Pregunta",
+    "close": "Cerrar",
+    "correctAnswer": "¡Correcto! Bien hecho.",
+    "incorrectAnswer": "Incorrecto. Por favor verifica que eres humano para continuar.",
+    "completed": {
+      "title": "¡Cuestionario Completado!",
+      "message": "¡Felicidades! Has completado exitosamente el cuestionario y demostrado tu comprensión de los principios de comunicación eficiente.",
+      "close": "Cerrar"
+    },
+    "questions": [
+      {
+        "question": "¿Cuál es el principal problema de enviar solo 'Hola' en un mensaje de chat?",
+        "options": [
+          "Es descortés",
+          "Obliga a la otra persona a esperar y responder antes de que compartas tu pregunta real",
+          "Usa demasiado ancho de banda",
+          "No está permitido en la mayoría de las aplicaciones de chat"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué debes incluir en tu primer mensaje en lugar de solo decir 'Hola'?",
+        "options": [
+          "Tu nombre completo e información de contacto",
+          "Tu pregunta o solicitud",
+          "Un saludo en varios idiomas",
+          "Un emoji"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál de estos es un ejemplo de un buen primer mensaje?",
+        "options": [
+          "Hola",
+          "Hola - Tengo problemas con el formulario de inicio de sesión. Cuando lo envío, no pasa nada. ¿Puedes echar un vistazo?",
+          "¿Estás ahí?",
+          "¿Tienes un minuto?"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Por qué es beneficioso incluir tu pregunta en el primer mensaje?",
+        "options": [
+          "Te hace ver más inteligente",
+          "La otra persona puede comenzar a pensar en tu pregunta de inmediato, responder cuando tenga tiempo, y obtienes tu respuesta más rápido",
+          "Previene el spam",
+          "Es requerido por las reglas de la plataforma de chat"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "En la comunicación asíncrona, ¿qué lo es todo?",
+        "options": [
+          "Velocidad",
+          "Contexto",
+          "Longitud",
+          "Emojis"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  },
+  "blackjack": {
+    "title": "🎰 Verifica que Eres Humano",
+    "description": "¡Vence al crupier en Blackjack para continuar!",
+    "dealer": "Crupier",
+    "you": "Tú",
+    "dealerBusted": "¡El Crupier se Pasó!",
+    "youBusted": "¡Te Pasaste!",
+    "blackjack": "¡Blackjack!",
+    "playerWon": "🎉 ¡Ganaste! Verificación aprobada.",
+    "dealerWon": "El Crupier Ganó. ¡Intenta de nuevo!",
+    "tie": "¡Es un empate! Jugando de nuevo...",
+    "hit": "Pedir",
+    "stand": "Plantarse"
+  }
 }
 
