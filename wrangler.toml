@@ -12,8 +12,6 @@ pages_build_output_dir = "dist"
 # B2_BUCKET_NAME = "your-bucket-name"
 # B2_DOWNLOAD_URL = "https://f000.backblazeb2.com"
 
-[env.production]
-routes = [
-  { pattern = "nohello.net", zone_name = "nohello.net" },
-]
+# Note: Custom domains for Cloudflare Pages are configured in the Cloudflare dashboard,
+# not in wrangler.toml. The "routes" configuration is only for Workers, not Pages.
 
