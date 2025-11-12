@@ -152,7 +152,7 @@ function App() {
           <p className="text-gray-600 dark:text-gray-400">
             {translations.footerContribute}{' '}
             <a
-              href="https://github.com/nohello-net/site"
+              href="https://github.com/subtato/nohello.boo"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-semibold underline decoration-2 underline-offset-4 hover:decoration-blue-500 transition-colors duration-200"

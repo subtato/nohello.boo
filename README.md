@@ -1,6 +1,6 @@
 # No Hello v3
 
-A modern rebuild of [nohello.net](https://nohello.net/) using Vite, React 19, Tailwind CSS, and Cloudflare Pages.
+A modern rebuild of [nohello.ing](https://nohello.ing/) using Vite, React 19, Tailwind CSS, and Cloudflare Pages.
 
 ## About
 
