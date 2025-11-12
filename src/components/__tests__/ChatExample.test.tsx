@@ -345,8 +345,8 @@ describe('ChatExample', () => {
       
       // Should have avatar elements (divs with circular styling)
       // Try different selectors since inline styles might be formatted differently
-      const avatars = container.querySelectorAll('div[style*="borderRadius"]');
-      const avatars2 = container.querySelectorAll('div[style*="50%"]');
+      container.querySelectorAll('div[style*="borderRadius"]');
+      container.querySelectorAll('div[style*="50%"]');
       
       // Should have some avatar-like elements or at least the component renders
       expect(container.textContent).toBeTruthy();

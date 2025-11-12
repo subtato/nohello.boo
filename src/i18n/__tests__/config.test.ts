@@ -64,7 +64,9 @@ describe('i18n config', () => {
   it('should return arrays for array translations', () => {
     const messages = i18n.t('rotatingMessages', { returnObjects: true });
     expect(Array.isArray(messages)).toBe(true);
-    expect(messages.length).toBeGreaterThan(0);
+    if (Array.isArray(messages)) {
+      expect(messages.length).toBeGreaterThan(0);
+    }
   });
 });
 

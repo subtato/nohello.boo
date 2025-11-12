@@ -54,7 +54,7 @@ async function b2Authorize(
     throw new Error(`B2 authorization failed: ${response.status} ${response.statusText}`);
   }
 
-  return response.json();
+  return (await response.json()) as B2AuthResponse;
 }
 
 async function getUploadUrl(
@@ -75,7 +75,7 @@ async function getUploadUrl(
     throw new Error(`Failed to get upload URL: ${response.status} ${response.statusText}`);
   }
 
-  return response.json();
+  return (await response.json()) as B2UploadUrlResponse;
 }
 
 async function uploadFile(
@@ -106,7 +106,7 @@ async function uploadFile(
     throw new Error(`Upload failed: ${response.status} ${response.statusText}\n${errorText}`);
   }
 
-  return response.json();
+  return (await response.json()) as B2FileInfo;
 }
 
 async function getBucketId(
@@ -128,8 +128,8 @@ async function getBucketId(
     throw new Error(`Failed to list buckets: ${response.status} ${response.statusText}`);
   }
 
-  const data = await response.json();
-  const bucket = data.buckets.find((b: { bucketName: string }) => b.bucketName === bucketName);
+  const data = await response.json() as { buckets: Array<{ bucketName: string; bucketId: string }> };
+  const bucket = data.buckets.find((b) => b.bucketName === bucketName);
 
   if (!bucket) {
     throw new Error(`Bucket "${bucketName}" not found`);

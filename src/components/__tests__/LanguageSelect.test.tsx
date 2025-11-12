@@ -178,7 +178,7 @@ describe('LanguageSelect', () => {
       expect(input).toBeInTheDocument();
     });
     
-    const input = screen.getByLabelText(/search languages/i);
+    screen.getByLabelText(/search languages/i);
     await user.keyboard('{ArrowDown}');
     
     await waitFor(() => {
@@ -209,7 +209,7 @@ describe('LanguageSelect', () => {
       expect(input).toBeInTheDocument();
     });
     
-    const input = screen.getByLabelText(/search languages/i);
+    screen.getByLabelText(/search languages/i);
     await user.keyboard('{ArrowUp}');
     
     await waitFor(() => {
@@ -241,7 +241,7 @@ describe('LanguageSelect', () => {
       expect(input).toBeInTheDocument();
     });
     
-    const input = screen.getByLabelText(/search languages/i);
+    screen.getByLabelText(/search languages/i);
     await user.keyboard('{ArrowDown}');
     await user.keyboard('{Enter}');
     
@@ -273,7 +273,7 @@ describe('LanguageSelect', () => {
       expect(listbox).toBeInTheDocument();
     });
     
-    const input = screen.getByLabelText(/search languages/i);
+    screen.getByLabelText(/search languages/i);
     await user.keyboard('{Escape}');
     
     await waitFor(() => {
@@ -303,7 +303,7 @@ describe('LanguageSelect', () => {
       expect(listbox).toBeInTheDocument();
     });
     
-    const input = screen.getByLabelText(/search languages/i);
+    screen.getByLabelText(/search languages/i);
     await user.keyboard('{Tab}');
     
     await waitFor(() => {
@@ -705,7 +705,7 @@ describe('LanguageSelect', () => {
     });
     
     // Close it
-    const input = screen.getByLabelText(/search languages/i) as HTMLInputElement;
+    screen.getByLabelText(/search languages/i);
     await user.keyboard('{Escape}');
     
     await waitFor(() => {

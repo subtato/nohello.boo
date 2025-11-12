@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
-import { render, screen, waitFor } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import { RotatingText } from '../RotatingText';
 import i18n from '../../i18n/config';
 
@@ -123,7 +123,7 @@ describe('RotatingText', () => {
     
     const originalSegmenter = (globalThis as { Intl?: { Segmenter?: typeof Intl.Segmenter } }).Intl?.Segmenter;
     if (typeof Intl !== 'undefined' && 'Segmenter' in Intl) {
-      (Intl as { Segmenter: typeof Intl.Segmenter }).Segmenter = vi.fn().mockImplementation(() => mockSegmenter) as typeof Intl.Segmenter;
+      (Intl as { Segmenter: typeof Intl.Segmenter }).Segmenter = vi.fn().mockImplementation(() => mockSegmenter) as unknown as typeof Intl.Segmenter;
     }
     
     render(<RotatingText />);
