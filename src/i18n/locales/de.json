@@ -1,0 +1,102 @@
+{
+  "title": "Bitte sag nicht nur \"Hallo\" im Chat",
+  "subtitle": "Hallo!",
+  "intro": "Nein",
+  "rotatingMessages": [
+    "hallo",
+    "hi",
+    "hey",
+    "guten Tag",
+    "bonjour",
+    "yo",
+    "hola",
+    "Guten Morgen!",
+    "servus",
+    "ciao",
+    "👋",
+    "namaste",
+    "hoi",
+    "hiya",
+    "Привет",
+    "hast du eine Sekunde?",
+    "Grüße!",
+    "aloha",
+    "こんにちは",
+    "buenos dias",
+    "heya",
+    "olà",
+    "j0",
+    "howdy",
+    "שלום",
+    "yooooooooooo!",
+    "你好",
+    "bist du da?",
+    "bist du noch da?",
+    "여보세요",
+    "schnelle Frage...",
+    "ping",
+    "Χαίρετε",
+    "سلام"
+  ],
+  "description": "Ein Chat mit \"Hallo\" zu beginnen und auf eine Antwort zu warten ist ineffizient. Hier ist der Grund:",
+  "problem": {
+    "title": "Das Problem",
+    "description": "Stell dir vor, jemanden anzurufen, \"Hallo!\" zu sagen und ihn dann in die Warteschleife zu setzen. Das ist im Wesentlichen das, was du tust, wenn du eine Nachricht sendest, die nur \"Hallo\" sagt.",
+    "example": {
+      "bad": {
+        "title": "Schlecht:",
+        "messages": [
+          "Hi",
+          "Ja, hi. Was gibt's?",
+          "Bist du da?",
+          "Was brauchst du?",
+          "Ich habe eine Frage zu meinem Code",
+          "OK? Was ist die Frage?",
+          "Nun, es funktioniert nicht",
+          "OK, lass mich schauen…"
+        ]
+      },
+      "good": {
+        "title": "Gut:",
+        "messages": [
+          "Hi - Ich habe ein Problem mit dem Anmeldeformular. Wenn ich es absende, passiert nichts. Kannst du mal schauen?",
+          "Sicher, ich schaue es mir an. Kannst du mir den Fehler aus der Konsole senden?"
+        ]
+      }
+    }
+  },
+  "solution": {
+    "title": "Die Lösung",
+    "description": "Anstatt nur \"Hallo\" zu sagen, füge deine Frage oder Bitte in die erste Nachricht ein. Auf diese Weise:",
+    "benefits": [
+      "Die andere Person kann sofort über deine Frage nachdenken",
+      "Sie können antworten, wenn sie Zeit haben, auch wenn du nicht online bist",
+      "Du bekommst deine Antwort schneller",
+      "Jeder spart Zeit"
+    ]
+  },
+  "examples": {
+    "title": "Weitere Beispiele",
+    "bad": [
+      "Hi",
+      "Hallo",
+      "Bist du da?",
+      "Hast du eine Minute?",
+      "ping",
+      "Yo"
+    ],
+    "good": [
+      "Hi - Ich brauche Hilfe beim Deployment-Skript. Es schlägt bei Schritt 3 fehl.",
+      "Hallo - Kannst du meinen PR überprüfen, wenn du Zeit hast? Es geht um die Benutzerauthentifizierung.",
+      "Hey - Schnelle Frage: Was ist der API-Endpunkt für Benutzerprofile?",
+      "Hi - Die Datenbankmigration dauert länger als erwartet. Soll ich sie abbrechen?"
+    ]
+  },
+  "footer": {
+    "text": "Denk daran: Bei asynchroner Kommunikation ist Kontext alles. Füge deine Frage oder Bitte in deine erste Nachricht ein.",
+    "contribute": "Möchtest du beitragen oder Verbesserungen vorschlagen?",
+    "github": "Sieh dir das Projekt auf GitHub an"
+  },
+  "language": "Sprache"
+}
+

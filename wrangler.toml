@@ -1,0 +1,19 @@
+name = "nohello-v3"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "dist"
+
+# Environment variables for Backblaze B2 translation storage
+# Set these in Cloudflare Pages dashboard under Settings > Environment Variables
+# 
+# Option 1: Full bucket URL (recommended for public buckets)
+# B2_BUCKET_URL = "https://f000.backblazeb2.com/file/your-bucket-name"
+#
+# Option 2: Separate bucket name and download URL
+# B2_BUCKET_NAME = "your-bucket-name"
+# B2_DOWNLOAD_URL = "https://f000.backblazeb2.com"
+
+[env.production]
+routes = [
+  { pattern = "nohello.net", zone_name = "nohello.net" },
+]
+

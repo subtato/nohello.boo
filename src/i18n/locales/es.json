@@ -1,0 +1,102 @@
+{
+  "title": "Por favor, no digas solo \"Hola\" en el chat",
+  "subtitle": "¡Hola!",
+  "intro": "No",
+  "rotatingMessages": [
+    "hola",
+    "hi",
+    "hey",
+    "buenos días",
+    "buenas",
+    "yo",
+    "qué tal",
+    "¡buenos días!",
+    "hallo",
+    "ciao",
+    "👋",
+    "namaste",
+    "hoi",
+    "qué pasa",
+    "Привет",
+    "¿tienes un segundo?",
+    "¡saludos!",
+    "aloha",
+    "こんにちは",
+    "buenas tardes",
+    "epa",
+    "olà",
+    "j0",
+    "howdy",
+    "שלום",
+    "yooooooooooo!",
+    "你好",
+    "¿estás ahí?",
+    "¿estás?",
+    "여보세요",
+    "pregunta rápida...",
+    "ping",
+    "Χαίρετε",
+    "سلام"
+  ],
+  "description": "Comenzar un chat con \"Hola\" y esperar una respuesta es ineficiente. Aquí te explicamos por qué:",
+  "problem": {
+    "title": "El Problema",
+    "description": "Imagina llamar a alguien por teléfono, decir \"¡Hola!\" y luego ponerlos en espera. Eso es esencialmente lo que estás haciendo cuando envías un mensaje que solo dice \"Hola\".",
+    "example": {
+      "bad": {
+        "title": "Malo:",
+        "messages": [
+          "Hola",
+          "Sí, hola. ¿Qué pasa?",
+          "¿Estás ahí?",
+          "¿Qué necesitas?",
+          "Tengo una pregunta sobre mi código",
+          "¿OK? ¿Cuál es la pregunta?",
+          "Bueno, no está funcionando",
+          "OK, déjame echar un vistazo…"
+        ]
+      },
+      "good": {
+        "title": "Bueno:",
+        "messages": [
+          "Hola - Tengo problemas con el formulario de inicio de sesión. Cuando lo envío, no pasa nada. ¿Puedes echar un vistazo?",
+          "Claro, lo revisaré. ¿Puedes enviarme el error de la consola?"
+        ]
+      }
+    }
+  },
+  "solution": {
+    "title": "La Solución",
+    "description": "En lugar de solo decir \"Hola\", incluye tu pregunta o solicitud en el primer mensaje. De esta manera:",
+    "benefits": [
+      "La otra persona puede comenzar a pensar en tu pregunta de inmediato",
+      "Pueden responder cuando tengan tiempo, incluso si no estás en línea",
+      "Obtienes tu respuesta más rápido",
+      "Todos ahorran tiempo"
+    ]
+  },
+  "examples": {
+    "title": "Más Ejemplos",
+    "bad": [
+      "Hola",
+      "Buenos días",
+      "¿Estás ahí?",
+      "¿Tienes un minuto?",
+      "ping",
+      "Hey"
+    ],
+    "good": [
+      "Hola - Necesito ayuda con el script de despliegue. Está fallando en el paso 3.",
+      "Hola - ¿Puedes revisar mi PR cuando tengas oportunidad? Es sobre la autenticación de usuarios.",
+      "Hey - Pregunta rápida: ¿cuál es el endpoint de la API para los perfiles de usuario?",
+      "Hola - La migración de la base de datos está tomando más tiempo del esperado. ¿Debería cancelarla?"
+    ]
+  },
+  "footer": {
+    "text": "Recuerda: En la comunicación asíncrona, el contexto lo es todo. Incluye tu pregunta o solicitud en tu primer mensaje.",
+    "contribute": "¿Quieres contribuir o sugerir mejoras?",
+    "github": "Consulta el proyecto en GitHub"
+  },
+  "language": "Idioma"
+}
+

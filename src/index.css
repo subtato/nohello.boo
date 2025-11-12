@@ -1,0 +1,220 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    color-scheme: light dark;
+    
+    /* Light mode colors */
+    --color-bg-primary: rgb(249 250 251);
+    --color-bg-secondary: rgb(255 255 255);
+    --color-bg-tertiary: rgb(249 250 251);
+    --color-text-primary: rgb(17 24 39);
+    --color-text-secondary: rgb(75 85 99);
+    --color-text-tertiary: rgb(107 114 128);
+    --color-border: rgb(229 231 235);
+    --color-border-dark: rgb(209 213 219);
+    
+    /* Accent colors */
+    --color-red: rgb(220 38 38);
+    --color-red-light: rgb(254 242 242);
+    --color-green: rgb(22 163 74);
+    --color-green-light: rgb(240 253 244);
+    --color-blue: rgb(37 99 235);
+    --color-blue-light: rgb(239 246 255);
+    
+    /* Background overlays */
+    --color-bg-overlay: rgba(255, 255, 255, 0.95);
+    --color-bg-card: rgba(255, 255, 255, 0.6);
+    
+    /* Gradient backgrounds */
+    --gradient-bg-start: rgb(249 250 251);
+    --gradient-bg-mid: rgb(255 255 255);
+    --gradient-bg-end: rgb(249 250 251);
+    
+    /* Decorative colors */
+    --color-decorative-blue: rgba(191, 219, 254, 0.2);
+    --color-decorative-purple: rgba(221, 214, 254, 0.2);
+    
+    /* Chat box colors */
+    --color-chat-bad-bg-start: rgb(254 242 242);
+    --color-chat-bad-bg-end: rgba(254, 226, 226, 0.5);
+    --color-chat-bad-border: rgba(254, 202, 202, 0.5);
+    --color-chat-bad-text: rgb(185 28 28);
+    --color-chat-good-bg-start: rgb(240 253 244);
+    --color-chat-good-bg-end: rgba(220, 252, 231, 0.5);
+    --color-chat-good-border: rgba(187, 247, 208, 0.5);
+    --color-chat-good-text: rgb(21 128 61);
+    --color-chat-user-bg-start: rgb(59 130 246);
+    --color-chat-user-bg-end: rgb(37 99 235);
+    --color-chat-other-bg: rgba(255, 255, 255, 0.8);
+    --color-chat-other-text: rgb(17 24 39);
+    --color-chat-time-text: rgb(156 163 175);
+    
+    /* Rotating text color */
+    --color-rotating-text: rgb(220 38 38);
+  }
+  
+  .dark {
+    /* Dark mode colors */
+    --color-bg-primary: rgb(3 7 18);
+    --color-bg-secondary: rgb(17 24 39);
+    --color-bg-tertiary: rgb(3 7 18);
+    --color-text-primary: rgb(243 244 246);
+    --color-text-secondary: rgb(209 213 219);
+    --color-text-tertiary: rgb(156 163 175);
+    --color-border: rgb(31 41 55);
+    --color-border-dark: rgb(55 65 81);
+    
+    /* Accent colors - dark mode */
+    --color-red: rgb(248 113 113);
+    --color-red-light: rgba(127, 29, 29, 0.2);
+    --color-green: rgb(74 222 128);
+    --color-green-light: rgba(20, 83, 45, 0.2);
+    --color-blue: rgb(96 165 250);
+    --color-blue-light: rgba(30, 58, 138, 0.2);
+    
+    /* Background overlays - dark mode */
+    --color-bg-overlay: rgba(17, 24, 39, 0.95);
+    --color-bg-card: rgba(31, 41, 55, 0.6);
+    
+    /* Gradient backgrounds - dark mode */
+    --gradient-bg-start: rgb(3 7 18);
+    --gradient-bg-mid: rgb(17 24 39);
+    --gradient-bg-end: rgb(3 7 18);
+    
+    /* Decorative colors - dark mode */
+    --color-decorative-blue: rgba(30, 58, 138, 0.1);
+    --color-decorative-purple: rgba(88, 28, 135, 0.1);
+    
+    /* Chat box colors - dark mode */
+    --color-chat-bad-bg-start: rgba(127, 29, 29, 0.3);
+    --color-chat-bad-bg-end: rgba(69, 10, 10, 0.2);
+    --color-chat-bad-border: rgba(185, 28, 28, 0.5);
+    --color-chat-bad-text: rgb(252 165 165);
+    --color-chat-good-bg-start: rgba(20, 83, 45, 0.3);
+    --color-chat-good-bg-end: rgba(5, 46, 22, 0.2);
+    --color-chat-good-border: rgba(34, 197, 94, 0.5);
+    --color-chat-good-text: rgb(134 239 172);
+    --color-chat-user-bg-start: rgb(37 99 235);
+    --color-chat-user-bg-end: rgb(29 78 216);
+    --color-chat-other-bg: rgba(31, 41, 55, 0.8);
+    --color-chat-other-text: rgb(243 244 246);
+    --color-chat-time-text: rgb(107 114 128);
+    
+    /* Rotating text color - dark mode */
+    --color-rotating-text: rgb(248 113 113);
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Lato', Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1), 
+                color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  /* Ensure smooth background transitions on main container */
+  .min-h-screen {
+    transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+                color 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  }
+  
+  /* Apply smooth transitions to elements that use CSS variables */
+  /* Force all color-related transitions to use the same duration for dark mode */
+  * {
+    transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1), 
+                border-color 0.5s cubic-bezier(0.4, 0, 0.2, 1), 
+                color 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  }
+  
+  /* Ensure elements with inline background styles transition smoothly */
+  [style*="background-color"],
+  [style*="background"],
+  [style*="color"] {
+    transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+                background 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+                color 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+                border-color 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  }
+  
+  /* Override Tailwind duration classes for color transitions during dark mode changes */
+  .dark *,
+  .dark *[class*="duration-"] {
+    transition-duration: 0.5s !important;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out both;
+}
+
+.animate-blink {
+  animation: blink 1s step-end infinite;
+}
+
+
+/* Screen reader only class for accessibility announcements */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+

@@ -1,0 +1,102 @@
+{
+  "title": "Please Don't Say Just \"Hello\" In Chat",
+  "subtitle": "Hello!",
+  "intro": "No",
+  "rotatingMessages": [
+    "hello",
+    "hi",
+    "hey",
+    "g'day",
+    "bonjour",
+    "yo",
+    "hola",
+    "morning!",
+    "hallo",
+    "ciao",
+    "👋",
+    "namaste",
+    "hoi",
+    "hiya",
+    "Привет",
+    "you got a sec?",
+    "greetings!",
+    "aloha",
+    "こんにちは",
+    "buenos dias",
+    "heya",
+    "olà",
+    "j0",
+    "howdy",
+    "שלום",
+    "yooooooooooo!",
+    "你好",
+    "在吗？",
+    "you there?",
+    "여보세요",
+    "quick question...",
+    "ping",
+    "Χαίρετε",
+    "سلام"
+  ],
+  "description": "Starting a chat with \"Hello\" and waiting for a response is inefficient. Here's why:",
+  "problem": {
+    "title": "The Problem",
+    "description": "Imagine calling someone on the phone, saying \"Hello!\" and then putting them on hold. That's essentially what you're doing when you send a message that just says \"Hello.\"",
+    "example": {
+      "bad": {
+        "title": "Bad:",
+        "messages": [
+          "Hi",
+          "Yes, hi. What's up?",
+          "Are you there?",
+          "What do you need?",
+          "I have a question about my code",
+          "OK? What's the question?",
+          "Well it's not working",
+          "OK, let me take a look…"
+        ]
+      },
+      "good": {
+        "title": "Good:",
+        "messages": [
+          "Hi - I'm having trouble with the login form. When I submit it, nothing happens. Can you take a look?",
+          "Sure, I'll check it out. Can you send me the error from the console?"
+        ]
+      }
+    }
+  },
+  "solution": {
+    "title": "The Solution",
+    "description": "Instead of just saying \"Hello\", include your question or request in the first message. This way:",
+    "benefits": [
+      "The other person can start thinking about your question immediately",
+      "They can respond when they have time, even if you're not online",
+      "You get your answer faster",
+      "Everyone saves time"
+    ]
+  },
+  "examples": {
+    "title": "More Examples",
+    "bad": [
+      "Hi",
+      "Hello",
+      "Are you there?",
+      "Got a minute?",
+      "ping",
+      "Yo"
+    ],
+    "good": [
+      "Hi - I need help with the deployment script. It's failing on step 3.",
+      "Hello - Can you review my PR when you have a chance? It's about the user authentication.",
+      "Hey - Quick question: what's the API endpoint for user profiles?",
+      "Hi there - The database migration is taking longer than expected. Should I cancel it?"
+    ]
+  },
+  "footer": {
+    "text": "Remember: In asynchronous communication, context is everything. Include your question or request in your first message.",
+    "contribute": "Want to contribute or suggest improvements?",
+    "github": "Check out the project on GitHub"
+  },
+  "language": "Language"
+}
+

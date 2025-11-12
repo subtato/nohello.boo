@@ -1,0 +1,102 @@
+{
+  "title": "S'il vous plaît, ne dites pas juste \"Bonjour\" dans le chat",
+  "subtitle": "Bonjour !",
+  "intro": "Non",
+  "rotatingMessages": [
+    "bonjour",
+    "salut",
+    "hey",
+    "coucou",
+    "allô",
+    "yo",
+    "hola",
+    "bon matin !",
+    "hallo",
+    "ciao",
+    "👋",
+    "namaste",
+    "hoi",
+    "ça va",
+    "Привет",
+    "tu as une seconde ?",
+    "salutations !",
+    "aloha",
+    "こんにちは",
+    "buenos dias",
+    "bonsoir",
+    "olà",
+    "j0",
+    "howdy",
+    "שלום",
+    "yooooooooooo!",
+    "你好",
+    "tu es là ?",
+    "t'es là ?",
+    "여보세요",
+    "question rapide...",
+    "ping",
+    "Χαίρετε",
+    "سلام"
+  ],
+  "description": "Commencer une conversation avec \"Bonjour\" et attendre une réponse est inefficace. Voici pourquoi :",
+  "problem": {
+    "title": "Le Problème",
+    "description": "Imaginez appeler quelqu'un au téléphone, dire \"Bonjour !\" puis le mettre en attente. C'est essentiellement ce que vous faites lorsque vous envoyez un message qui dit simplement \"Bonjour\".",
+    "example": {
+      "bad": {
+        "title": "Mauvais :",
+        "messages": [
+          "Salut",
+          "Oui, salut. Qu'est-ce qu'il y a ?",
+          "Tu es là ?",
+          "De quoi as-tu besoin ?",
+          "J'ai une question sur mon code",
+          "OK ? Quelle est la question ?",
+          "Eh bien, ça ne fonctionne pas",
+          "OK, laisse-moi regarder…"
+        ]
+      },
+      "good": {
+        "title": "Bon :",
+        "messages": [
+          "Salut - J'ai un problème avec le formulaire de connexion. Quand je le soumets, rien ne se passe. Tu peux regarder ?",
+          "Bien sûr, je vais vérifier. Tu peux m'envoyer l'erreur de la console ?"
+        ]
+      }
+    }
+  },
+  "solution": {
+    "title": "La Solution",
+    "description": "Au lieu de simplement dire \"Bonjour\", incluez votre question ou demande dans le premier message. De cette façon :",
+    "benefits": [
+      "L'autre personne peut commencer à réfléchir à votre question immédiatement",
+      "Ils peuvent répondre quand ils ont le temps, même si vous n'êtes pas en ligne",
+      "Vous obtenez votre réponse plus rapidement",
+      "Tout le monde gagne du temps"
+    ]
+  },
+  "examples": {
+    "title": "Plus d'exemples",
+    "bad": [
+      "Salut",
+      "Bonjour",
+      "Tu es là ?",
+      "Tu as une minute ?",
+      "ping",
+      "Yo"
+    ],
+    "good": [
+      "Salut - J'ai besoin d'aide avec le script de déploiement. Il échoue à l'étape 3.",
+      "Bonjour - Peux-tu examiner ma PR quand tu auras le temps ? C'est à propos de l'authentification utilisateur.",
+      "Salut - Question rapide : quel est le point de terminaison de l'API pour les profils utilisateur ?",
+      "Salut - La migration de la base de données prend plus de temps que prévu. Dois-je l'annuler ?"
+    ]
+  },
+  "footer": {
+    "text": "Rappelez-vous : Dans la communication asynchrone, le contexte est tout. Incluez votre question ou demande dans votre premier message.",
+    "contribute": "Vous voulez contribuer ou suggérer des améliorations ?",
+    "github": "Consultez le projet sur GitHub"
+  },
+  "language": "Langue"
+}
+

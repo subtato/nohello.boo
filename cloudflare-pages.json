@@ -1,0 +1,22 @@
+{
+  "build": {
+    "command": "npm run build",
+    "cwd": ".",
+    "watchPaths": [
+      "src/**",
+      "public/**",
+      "package.json",
+      "vite.config.ts"
+    ]
+  },
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
+
