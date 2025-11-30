@@ -5,6 +5,7 @@ import en from './locales/en.json';
 import es from './locales/es.json';
 import fr from './locales/fr.json';
 import de from './locales/de.json';
+import ko from './locales/ko.json';
 
 // Local resources for development and fallback
 const localResources = {
@@ -12,6 +13,7 @@ const localResources = {
   es: { translation: es },
   fr: { translation: fr },
   de: { translation: de },
+  ko: { translation: ko },
 };
 
 // Check if we're in production (Cloudflare Pages)

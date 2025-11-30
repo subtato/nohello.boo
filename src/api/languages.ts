@@ -19,6 +19,7 @@ export async function fetchLanguages(): Promise<Language[]> {
     { code: 'es', name: 'Español', flag: '🇪🇸' },
     { code: 'fr', name: 'Français', flag: '🇫🇷' },
     { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+    { code: 'ko', name: '한국어', flag: '🇰🇷' },
   ];
 }
 
